@@ -1,0 +1,90 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Login form container */
+.login {
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent white background */
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    padding: 20px 30px;
+    text-align: center;
+    width: 300px;
+}
+
+/* Form heading */
+.login h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow for effect */
+}
+
+/* Label styling */
+.login label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+    color: #ddd;
+    text-align: left;
+}
+
+/* Input fields */
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2); /* Light transparent background */
+    color: #fff;
+    font-size: 14px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.2); /* Inner shadow */
+}
+
+/* Input field placeholder color */
+.login input::placeholder {
+    color: #ccc;
+}
+
+/* Submit button */
+.login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #ff9800; /* Attractive orange color */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login button:hover {
+    background: #e68900; /* Darker orange for hover effect */
+}
+
+/* Add spacing between elements */
+.login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Add some spacing to input fields */
+.login input,
+.login button {
+    margin-top: 10px;
+}

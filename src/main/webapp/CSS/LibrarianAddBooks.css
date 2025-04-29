@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* General styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #89f7fe, #66a6ff); /* Gradient background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the Add Books form */
+.librarianAddBooks {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    padding: 20px 30px;
+    text-align: center;
+    width: 400px;
+}
+
+/* Heading styles */
+.librarianAddBooks h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #2c3e50; /* Dark gray for contrast */
+}
+
+/* Form labels */
+.librarianAddBooks label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin: 10px 0 5px;
+}
+
+/* Input fields */
+.librarianAddBooks input[type="text"], 
+.librarianAddBooks select {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box; /* Ensure proper padding and width */
+}
+
+/* Submit button */
+.librarianAddBooks button {
+    background-color: #3498db; /* Blue button */
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+/* Hover effect for the button */
+.librarianAddBooks button:hover {
+    background-color: #2980b9; /* Darker blue */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Form alignment */
+.librarianAddBooks form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Dropdown menu */
+.librarianAddBooks select {
+    background-color: white;
+    color: #333;
+    font-size: 14px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    background-color: #e74c3c;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #c0392b;
+}

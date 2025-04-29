@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* General styling for body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #4facfe, #00f2fe); /* Light blue gradient background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the librarian menu */
+.librarianMenu {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    padding: 20px 30px;
+    text-align: center;
+    width: 350px;
+}
+
+/* Heading styles */
+.librarianMenu h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #2c3e50; /* Dark gray for contrast */
+}
+
+.librarianMenu h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+/* Buttons styling */
+.librarianMenu button {
+    background-color: #3498db; /* Blue button */
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for buttons */
+.librarianMenu button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Focus effect for buttons */
+.librarianMenu button:focus {
+    outline: none; /* Removes default outline */
+    box-shadow: 0 0 5px #2980b9; /* Adds glow effect */
+}
+
+/* Form styling */
+.librarianMenu form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+

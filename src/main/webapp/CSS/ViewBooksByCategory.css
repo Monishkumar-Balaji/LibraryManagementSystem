@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS file for Books by Category page */
+
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Center the main heading */
+h1 {
+    text-align: center;
+    color: #4CAF50; /* Green color for the heading */
+    margin-top: 20px;
+}
+
+/* Styling the table */
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Center the table */
+    background-color: #fff;
+    background: linear-gradient(to right, #89f7fe, #66a6ff);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table borders and cell spacing */
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50; /* Green background for headers */
+    color: white; /* White text */
+}
+
+td {
+    background-color: #f4f4f9; /* Light background for table data */
+}
+
+tr:nth-child(even) td {
+    background-color: #f9f9f9; /* Alternate row coloring */
+}
+
+/* Styling for the message paragraph */
+p {
+    text-align: center;
+    color: red;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+/* Styling for the "Go Back" link */
+a {
+    display: block;
+    width: 20%;
+    margin: 20px auto;
+    text-align: center;
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    border: 1px solid #4CAF50;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for the "Go Back" link */
+a:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+    }
+
+    table, th, td {
+        font-size: 0.9em;
+    }
+
+    a {
+        width: 80%;
+    }
+}
